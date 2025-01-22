@@ -1,21 +1,120 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccioJob Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .blog-post {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h2 {
+            margin-top: 0;
+        }
+        .blog-post p {
+            line-height: 1.6;
+        }
+        .blog-post img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        marquee {
+            display: block;
+            margin: 20px 0;
+            background-color: #eaeaea;
+            padding: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<p>Welcome to Accio Jobs!</p>
-	<a>Blog</a>
-	<a>https://storage.googleapis.com/acciojob-open-file-collections/4b1e3a39-a42d-4488-95d7-b08b6d779c01_Screenshot%202023-08-18%20at%205.46.58%20PM.png</a>
-	
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<header>
+    <h1>AccioJob Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<marquee>Welcome to Accio Jobs!</marquee>
+
+<div class="container">
+    <h1><a href="#">Accio Job's Blog</a></h1>
+
+    <div class="blog-post">
+        <h2>Brute Force vs. Optimization</h2>
+        <img src="https://images.unsplash.com/flagged/photo-1556514767-5c270b96a005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI2fHxvcHRpbWl6YXRpb258ZW58MHx8fHwxNjcxMDAyOTIz&ixlib=rb-4.0.3&q=80&w=2000" alt="Brute Force vs. Optimization">
+        <p>We can say that optimization is...</p>
+        <a href="#">Brute Force vs. Optimization</a>
+    </div>
+
+    <div class="blog-post">
+        <h2>DSA vs. Competitive Programming</h2>
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxjb21wZXRpdGl2ZSUyMHByb2dyYW1taW5nfGVufDB8fHx8MTY3MDk5ODg1NA&ixlib=rb-4.0.3&q=80&w=2000" alt="DSA vs. Competitive Programming">
+        <p>DSA or Competitive programming?...</p>
+        <a href="#">DSA vs. Competitive Programming</a>
+    </div>
+
+    <div class="blog-post">
+        <h2>Complete Guide on FlexBox</h2>
+        <img src="https://acciojob.com/blog/content/images/size/w2000/2023/02/Screenshot-2023-02-06-at-7.28.31-PM.png" alt="Complete Guide on FlexBox">
+        <p>As a job seeker, you may wonder...</p>
+        <a href="#">Complete Guide on FlexBox</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 AccioJob. All rights reserved.</p>
+</footer>
 
 </body>
-
 </html>
+
